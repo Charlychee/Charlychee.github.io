@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Charles Lee</h1>
+            <h2>Electrical Engineer: Autonomous Robotics</h2>
+            <a href="https://drive.google.com/file/d/1D-0q4zutjZZP7oSDqdAQlQMhQQNny2IS/view?usp=sharing" class="btn-rounded-white">View Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+					Currently pursuing a Master's degree in Electrical Engineering with a specialization in Intelligent Systems, Robotics, and Control. Passionate about leveraging cutting-edge technology to create innovative solutions. Leading the development of captivating music and intelligent Enemy AI as a Co-Founder at Madrona Games.
+					<br>
+					Seeking new opportunities to apply my technical expertise and creativity in shaping the future of robotics, AI, and emerging technologies.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="June 2022 – September 2022">
+                <h3>Amazon Web Services (AWS) </h3>
+                <h4>Software Development Engineer Intern</h4>
+                <ul>
+                    <li>
+					Designed and implemented a search filtering system allowing Quicksight customers to easily manage resources</li>
+					<li>
+					Released the search filtering feature to production servers and is currently available to public AWS customers</li>
+					<li>
+					Optimized the search system to reduce latency by over 66% between customer requests and server responses</li>
+                </ul>
+            </div>
+
+            <div data-date="March 2021 – May 2022">
+                <h3>International Business Machines (IBM)</h3>
+                <h4>Automation Test Development Co-Op</h4>
+                <ul>
+                    <li>
+					Implemented automatic testing systems with Kubernetes and Selenium, reducing manual labor by 15 hours a week
+					</li>
+					<li>
+					Proposed multiple solutions to the product development team to discuss over given reported test results</li>
+					<li>
+					Overhauled and consolidated an existing suite of tools into a centralized interface to improve user experience</li>
+                </ul>
+            </div>
+
+            <div data-date="June 2020 – August 2020">
+                <h3>NASA Jet Propulsion Laboratory (JPL)</h3>
+                <h4>Software Development Intern</h4>
+                <ul>
+                    <li>
+					Engineered CI/CD pipelines for new software using Jenkins, reducing manual labor by up to 30 hours per week</li>
+					<li>
+					Aided the software engineering team in their work for the Perseverance Mars rover and future space missions</li>
+					<li>
+					Constructed custom integrations where commercial offerings fell short for software development tools</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of California, San Diego<br>Jacobs School of Engineering</h3>
+            <span class="education-date">March 2023 - June 2024</span>
+            <h4 style="margin: 0;">Master of Science in Electrical Engineering: Intelligent Systems, Robotics, and Control <br>GPA 4.0</h4>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>University of California, San Diego<br>Jacobs School of Engineering</h3>
+            <span class="education-date">September 2019 - March 2023</span>
+            <h4 style="margin: 0;">Bachelor of Science in Electrical Engineering: Computer System Design<br>GPA: 3.91</h4>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/PassExample.gif" width=300px height=300px/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Basketball Trajectory Prediction</h3>
+                        <p>
+                            A transformer encoder-decoder neural-network model to predict basketball trajectory given an input sequence of player and ball position data. Models physics-behavior of the ball and strategic-behavior of the players. Trained and tuned parameters to achieve a root mean square error of 0.289 and 0.215 feet in 2D and 3D positions.
+                        </p>
+                        <a href="https://github.com/Charlychee/Basketball-Trajectory-Prediction">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/VI_SLAM.gif" width=300px height=300px/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Visual Inertial EKF-SLAM</h3>
+                        <p>
+                            This project uses stereo camera observations to estimate where our agent is and where our observed landmarks are. This utilizes the Extended Kalman Filter (EKF) with stereo camera and IMU data to estimate the 3D pose of an agent and the 3D position of landmarks.
+                        </p>
+                        <a href="https://github.com/Charlychee/Visual-Inertial-SLAM">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/LiDARSlam.png" width=300px height=300px/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>LiDAR Particle Filter SLAM</h3>
+                        <p>
+                            This project uses LiDAR observations and IMU data to estimate where our agent is and where the 2D layout of its environment is. This utilizes the Particle Filter with LiDAR and IMU data to estimate the 2D pose of an agent and create a 2D occupancy grid map.
+                        </p>
+                        <a href="https://github.com/Charlychee/LiDAR-Particle-Filter-SLAM">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>MATLAB</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SystemVerilog</li>
+            <li>LabVIEW</li>
+            <li>ROS</li>
+            <li>Git</li>
+            <li>Docker</li>
+            <li>Jupyter Notebook</li>
+            <li>Kubernetes</li>
+            <li>Unity</li>
+            <li>PyTorch</li>
+            <li>TensorFlow</li>
+            <li>OpenCV</li>
+            <li>NumPy</li>
+            <li>CasADI</li>
+            <li>JAX</li>
+            <li>Numba</li>
+            <li>Matplotlib</li>
+			<li>Pandas</li>
+			<li>Eigen</li>
+        </ul>
+    </div>
+    <!-- End #skills -->	
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2023</span> Charles Lee
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Charlychee" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/charleslee531" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
