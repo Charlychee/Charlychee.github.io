@@ -1,0 +1,8 @@
+.music-tile {
+    position: relative;
+    width: 100%;
+    max-width: 533px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
